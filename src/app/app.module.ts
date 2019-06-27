@@ -19,6 +19,7 @@ import { HttpClientModule } from '@angular/common/http';
 
 // pipes
 import { NoImagePipe } from './pipes/noimage.pipe';
+import { TarjetasComponent } from './components/tarjetas/tarjetas.component';
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import { NoImagePipe } from './pipes/noimage.pipe';
     SearchComponent,
     ArtistaComponent,
     NavbarComponent,
-    NoImagePipe
+    NoImagePipe,
+    TarjetasComponent
   ],
   imports: [
     BrowserModule,
