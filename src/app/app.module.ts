@@ -17,6 +17,8 @@ import { HttpClientModule } from '@angular/common/http';
 
 // services
 
+// pipes
+import { NoImagePipe } from './pipes/noimage.pipe';
 
 
 @NgModule({
@@ -25,7 +27,8 @@ import { HttpClientModule } from '@angular/common/http';
     HomeComponent,
     SearchComponent,
     ArtistaComponent,
-    NavbarComponent
+    NavbarComponent,
+    NoImagePipe
   ],
   imports: [
     BrowserModule,
