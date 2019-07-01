@@ -12,7 +12,7 @@ export class TarjetasComponent {
 
   constructor(private router: Router) { }
 
-  verArtista( item: any ){
+  verArtists( item: any ){
 
     console.log(item);
 
